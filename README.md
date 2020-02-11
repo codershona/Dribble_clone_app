@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Project : DRIBBLE CLONE APP
 
-Things you may want to cover:
+#### Ready to deploy it in HEROKU
 
-* Ruby version
+*  First Steps :
 
-* System dependencies
+```
+  - Added Gems in gemfile;
+  - guard init livereload;
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
