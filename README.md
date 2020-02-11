@@ -16,6 +16,9 @@
   - rails g devise:views;
   - rails g devise User;
   - rails db:migrate;
+  - rails g migration AddFieldsToUsers name:string;
+  - rails g scaffold Shot title:string description:text user_id:integer;
+  - rails db:migrate;
   - 
 
 ```
