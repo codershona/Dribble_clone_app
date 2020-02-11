@@ -20,5 +20,10 @@
   - rails g scaffold Shot title:string description:text user_id:integer;
   - rails db:migrate;
   - rails c ( User.connection;@user = User;@user.last;@user = @user.last;@user.destroy;  )
+  -  rails g uploader Shot; - delete this file.
+  - rails g uploader user_shot;
+  - rails g migration add_user_shot_to_shots ;
+  - rails db:migrate;
+  - 
 
 ```
