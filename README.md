@@ -19,6 +19,6 @@
   - rails g migration AddFieldsToUsers name:string;
   - rails g scaffold Shot title:string description:text user_id:integer;
   - rails db:migrate;
-  - 
+  - rails c ( User.connection;@user = User;@user.last;@user = @user.last;@user.destroy;  )
 
 ```
