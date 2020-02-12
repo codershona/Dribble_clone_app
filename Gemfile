@@ -36,7 +36,7 @@ gem 'carrierwave', '~> 2.0', '>= 2.0.2'
 
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
-gem 'mini_magick', '~> 4.10', '>= 4.10.1'
+gem 'binding_of_caller', '~> 0.8.0'
 
 gem 'impressionist', '~> 1.6', '>= 1.6.1'
 
@@ -47,7 +47,7 @@ gem 'gravatar_image_tag', '~> 1.2'
 gem 'acts_as_votable', '~> 0.12.1'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
